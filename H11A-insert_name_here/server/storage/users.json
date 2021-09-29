@@ -1,0 +1,13 @@
+{
+    "1": {
+        "email": "yespleasework@gmail.com",
+        "password": "1936bbc1d0fc2362cd09c37bbb0e076556c93bfedaed881eb10d24d915080a83",
+        "name_first": "yes",
+        "name_last": "please",
+        "handle_str": "yesplease",
+        "permission_id": 1,
+        "tokens": [
+            "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxLCJ0aW1lIjoxNTcyMTU2NzIyLjg1NDI4NDN9.BeLe85kh5x0sEugTiQvxY5nLH8pkoutvt-CVgUppaao"
+        ]
+    }
+}

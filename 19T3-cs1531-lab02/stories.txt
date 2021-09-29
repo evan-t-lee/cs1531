@@ -1,0 +1,33 @@
+Step 1 - Elicitation
+
+Market Research - Cross angle (unsw)
+
+Stakeholders 
+    - MQU
+    - Crossangle
+    - Societies (MacSync)
+    - Students
+        - People who live on campus
+        - People who live off campus
+            - near
+            - close
+        - People who are a part of Bible Campus Study MACQ
+        - People with or without jobs
+
+Focus Groups and Questions
+Would you pay to use the service?
+Would you rather this service as a website or mobile app?
+How early do you want to be able to schedule a term?
+Do you want to be able to add custom timetable entries? (like society times)
+Would you want to be able to share your timetable with others?
+Do you want maximum capacity of classes to be shown?
+
+Step 2 - Analysis (User Stories)
+
+As a student who lives far from campus, I want to be able to compact my timetable, so that I attend uni as few days as possible.
+As a student who works part time, I want to be able to filter my timetable availabilities, so that uni times doesn't clash with work.
+As a MacSync representative, I attend a lot of uni society events, I would like to be able to view those and organise accordingly
+As the uni, we want to limit the amount of data that is stored, so that I can protect the privacy of the students
+As the uni, we would like to have administrative rights to be able to make changes on this app
+As a member of the Bible Campus study, I want to be able to schedule the society events (like prayer meetings), so that I can fulfil my religious commitments
+As a lecturer/tutor at MQU, I would like students to be able to see live schedule changes, so that I can notify students of sudden changes (students can have up to date info)

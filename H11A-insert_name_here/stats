@@ -1,0 +1,15 @@
+#!/bin/sh
+# usage: bash stats.sh
+list=" Harry Andresen Hayden Smith Hugh Chan Rob Everest Robert Clifton-Everest Matthew hugh"
+authorStr=$(git log --format='%aN' | sort -u)
+readarray -t authorArr <<<"$authorStr"
+for author in "${authorArr[@]}"
+do
+    if ! [[ $list =~ .*\ "${author[@]}"\.* ]]
+    then
+        printf "${author[@]}\n"
+        git log --shortstat --author="${author[@]}" | grep -E "fil(e|es) changed" | awk '{add+=$4; rm+=$6} END {print "Lines added:", add, "| Lines removed:", rm, "| Lines modified:", add+rm,"| Lines contributed:", add-rm}'
+        printf "\n"
+    fi
+done
+# evan's fucking retarded script that he wasted 3hrs on kms
